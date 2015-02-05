@@ -1,0 +1,6 @@
+{
+	"require": {
+		"chonla/cfg": "dev-master",
+		"pwfisher/command-line-php": "dev-master"
+	}
+}

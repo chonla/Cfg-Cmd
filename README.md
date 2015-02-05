@@ -18,4 +18,4 @@ Example
 ```
 
 ### License
-MIT: [http://chonla.mit-license.org/]
+MIT: <http://chonla.mit-license.org/>

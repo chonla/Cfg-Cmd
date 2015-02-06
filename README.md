@@ -1,6 +1,14 @@
 # Cfg-Cmd
 Configuration (YAML, JSON) command line utility
 
+### Prerequisite
+- [Composer](https://getcomposer.org/)
+
+### Installation
+```sh
+composer install
+```
+
 ### Usage
 ```sh
 php cfg.php --file=<config-file> --key=<key> --value=<value> [--type=(string|number|boolean)]

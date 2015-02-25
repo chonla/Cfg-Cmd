@@ -1,4 +1,8 @@
 {
+    "name": "chonla/cfg-cmd",
+    "description": "Configuration Command Line Kit",
+    "version": "0.2",
+    "license": "MIT",
 	"require": {
 		"chonla/cfg": "dev-master",
 		"pwfisher/command-line-php": "dev-master"

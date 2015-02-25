@@ -70,9 +70,6 @@ if (isset($args['type'])) {
 	}
 }
 
-// Backup
-copy($args['file'], '.'.$args['file'].'.tmp');
-
 // Do
 $config->set($args['key'], $args['value']);
 $config->save($args['file']);
@@ -89,7 +86,6 @@ if (!isset($args['silent'])) {
 	try {
 		$verify = \Chonla\Cfg\Config::load($args['file']);
 		echo "Configuration file is successfully verified.\n";
-		unlink('.'.$args['file'].'.tmp');
 	} catch(\Exception $e) {
 		die($e['message']);
 	}

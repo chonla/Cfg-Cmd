@@ -1,4 +1,3 @@
 #!/bin/bash
 php=`which php`
-
 $php cfg.php $*

@@ -3,6 +3,7 @@ Configuration (YAML, JSON) command line utility
 
 ### Install Composer
 - [Composer](https://getcomposer.org/)
+
 ```sh
 curl -sS https://getcomposer.org/installer | php
 mv composer.phar /usr/local/bin/composer
